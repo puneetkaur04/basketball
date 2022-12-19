@@ -5,9 +5,63 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: lightgrey;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.search-bar {
+  /* display: block; */
+  width: 60%;
+  padding: 15px;
+  margin: 0 0 75px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: white;
+  box-shadow: 5px 5px rgba(39, 35, 35, 0.3);
+  border-radius: 40px;
+  margin-left: 275px;
+  margin-bottom: 50px;
+  margin-top:-10px;
+ }
+
+ table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width:75%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+td, th, table {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: darkgray;
+  color: white;
+}
+
+#nbaLogo{
+  width: 200px;
+  height: 100px;
+  margin-bottom: -25px;
+}
+
+h1{
+  color:rgb(27, 27, 100);
+  font-size: 75px;
+  margin-top: -60px;
+  margin-left: 200px;
+}
+
+
